@@ -9,8 +9,8 @@ class App extends React.Component {
    render() {
       return (
          <div>
-            <Header headerProp = "{this.state.header}"/>
-            <Content contentProp = "{this.state.content}"/>
+            <Header headerProp = "Eternity"/>
+            <Content contentProp = "Fate"/>
          </div>
       );
    }
