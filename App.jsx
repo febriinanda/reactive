@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header.jsx';
 import Content from './components/Content.jsx';
 import Footer from './components/Footer.jsx';
+import Footeri from './components/Table.jsx';
 import Button from './components/Button.jsx';
 import Input from './components/Input.jsx';
 
