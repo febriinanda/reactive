@@ -47,5 +47,9 @@
     "semantic-ui": "^2.2.4",
     "webpack": "^1.13.2",
     "yamljs": "^0.2.8"
+  },
+  "devDependencies": {
+    "node-sass": "^3.10.1",
+    "nodemon": "^1.11.0"
   }
 }
