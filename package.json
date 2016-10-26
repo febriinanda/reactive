@@ -4,7 +4,9 @@
   "description": "Learn react from tutorial point",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot",
+    "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "Febrinanda Endriz Pratama",
   "license": "ISC",
