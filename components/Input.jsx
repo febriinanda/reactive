@@ -1,5 +1,11 @@
 import React from 'react'
 
+//
+// ─── HOW TO USE: <Input label="Some Text" type="text" name="Some Text" placeholder="Some Text"/>
+// "type" using html5 standart. Use carefully and wisely!
+//
+
+
 class Input extends React.Component {
     render () {
         return (
